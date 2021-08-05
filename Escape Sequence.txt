@@ -1,0 +1,3 @@
+//Escape Sequences demonstrating how to use apostrophes in a string along with returning to the next line 
+String str = 'My future job title name\'s called a \'Application Support Developer\'. working at Sunnova Energy.\n the recruiter\'s name is Sri Gunukula.';
+System.debug(str);
