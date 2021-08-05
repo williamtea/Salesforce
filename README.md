@@ -80,3 +80,16 @@ System.debug('Replace my first name with Billy: '+myFirstName.replace('william',
 This was the code's output:
 
 <img src="String Class Methods.PNG" />
+
+The next exercise I've learned was about the different [Escape Sequences](https://developer.salesforce.com/docs/atlas.en-us.soql_sosl.meta/soql_sosl/sforce_api_calls_soql_select_quotedstringescapes.htm).
+
+Below is the code I created.
+```apex
+//Escape Sequences demonstrating how to use apostrophes in a string along with returning to the next line 
+String str = 'My future job title name\'s called a \'Application Support Developer\'. working at Sunnova Energy.\n the recruiter\'s name is Sri Gunukula.';
+System.debug(str);
+```
+
+This was the code's output:
+
+<img src="Escape Sequence.PNG" />
