@@ -43,3 +43,36 @@ System.debug(currentDateTime);
 This was the code's output
 
 <img src="Primative Data Types.PNG" />
+
+The next exercise I've learned was about the different [string class methods](https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_string.htm).
+
+Below is the code I created.
+```apex
+String myFirstName= 'william';
+System.debug('Actual first name:' + myFirstName);
+
+String myLastName= 'Tea';
+System.debug('Actual last name:' + myLastName);
+
+// capitalize
+System.debug('Capitalize myFirstName: '+myFirstName.capitalize());
+
+// convert to upper case
+System.debug('Changing first name to upper case: '+myFirstName.toUpperCase());
+
+// convert to lower case
+System.debug('Changing last name to lower case: '+myLastName.toLowerCase());
+
+// equals
+System.debug('Is my first name equal to Tea?: '+myFirstName.equals('Tea'));
+String myFirstName1 = 'William';
+String myFirstName2 = 'william';
+System.debug('myFirstName1 equals myFirstName2: '+ myFirstName1.equals(myFirstName2));
+System.debug('myFirstName1 equals myFirstName2 ignore case: ' + myFirstName1.toLowerCase().equals(myFirstName2.toLowerCase()));
+
+// remove
+System.debug('Remove last 3 characters of my first name: '+myFirstName.remove('iam'));
+
+// replace
+System.debug('Replace my first name with Billy: '+myFirstName.replace('william', 'Billy'));
+```
