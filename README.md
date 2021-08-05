@@ -40,5 +40,6 @@ Datetime currentDateTime = DateTime.newInstance(2021, 08, 04, 21, 43, 0);
 System.debug(currentDateTime);
 ```
 
-This was the output 
+This was the code's output
+
 <img src="Primative Data Types.PNG" />
