@@ -7,7 +7,7 @@ The Course that I'm taking is called [The Complete Salesforce Development Course
 These are the subjects that I'll be learning.
 <img src="Udemy - What you'll learn.PNG" />
 
-The first thing I've learned was about [Primative Data Types](https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/langCon_apex_primitives.htm) and how to create comments.
+I am going to learn about the Apex fundemntals, the first thing I've learned was about [Primative Data Types](https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/langCon_apex_primitives.htm) and how to create [comments](https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/langCon_apex_expressions_comments.htm).
 
 Below is the code that I created.
 ```apex
