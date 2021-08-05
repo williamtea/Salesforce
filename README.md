@@ -7,7 +7,7 @@ The Course that I'm taking is called [The Complete Salesforce Development Course
 These are the subjects that I'll be learning.
 <img src="Udemy - What you'll learn.PNG" />
 
-The first thing I've learned was about Primative Data Types and how to create comments.
+The first thing I've learned was about [Primative Data Types](https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/langCon_apex_primitives.htm) and how to create comments.
 
 Below is the code that I created.
 ```apex
@@ -40,7 +40,7 @@ Datetime currentDateTime = DateTime.newInstance(2021, 08, 04, 21, 43, 0);
 System.debug(currentDateTime);
 ```
 
-This was the code's output
+This was the code's output:
 
 <img src="Primative Data Types.PNG" />
 
@@ -76,3 +76,6 @@ System.debug('Remove last 3 characters of my first name: '+myFirstName.remove('i
 // replace
 System.debug('Replace my first name with Billy: '+myFirstName.replace('william', 'Billy'));
 ```
+
+This was the code's output:
+<img src="String Class Methods.PNG" />
