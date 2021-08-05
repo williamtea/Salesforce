@@ -5,7 +5,7 @@ This is my first github creation, this will also be used to showcase some of the
 The Course that I'm taking is called [The Complete Salesforce Development Course](https://www.udemy.com/course/salesforce-development/).
 
 These are the subjects that I'll be learning.
-<img src="Udemy - What you'll learn.PNG" />
+<img src="image/Udemy - What you'll learn.PNG" />
 
 I am going to learn about the Apex fundamentals, the first thing I've learned was about [Primative Data Types](https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/langCon_apex_primitives.htm) and how to create [comments](https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/langCon_apex_expressions_comments.htm).
 
@@ -42,7 +42,7 @@ System.debug(currentDateTime);
 
 This was the code's output:
 
-<img src="Primative Data Types.PNG" />
+<img src="image/Primative Data Types.PNG" />
 
 The next exercise I've learned was about the different [string class methods](https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_string.htm).
 
@@ -79,7 +79,7 @@ System.debug('Replace my first name with Billy: '+myFirstName.replace('william',
 
 This was the code's output:
 
-<img src="String Class Methods.PNG" />
+<img src="image/String Class Methods.PNG" />
 
 The next exercise I've learned was about the different [Escape Sequences](https://developer.salesforce.com/docs/atlas.en-us.soql_sosl.meta/soql_sosl/sforce_api_calls_soql_select_quotedstringescapes.htm).
 
@@ -92,4 +92,4 @@ System.debug(str);
 
 This was the code's output:
 
-<img src="Escape Sequence.PNG" />
+<img src="image/Escape Sequence.PNG" />
