@@ -1,6 +1,9 @@
 # Salesforce
 
-This is my first github creation, this will be used to showcase some of the progression of Salesforce development that I've learned on my own spare time.
+This is my first github creation, this will also be used to showcase some of the progression of Salesforce development that I've learned on my own spare time through Udemy.
+
+The Course that I'm taking is called "[The Complete Salesforce Development Course"](https://www.udemy.com/course/salesforce-development/) which is listed on Udemy
+<img src="Udemy - What you'll learn.PNG" />
 
 The first thing I've learned was about Primative Data Types and how to create comments.
 
