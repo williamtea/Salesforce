@@ -78,4 +78,5 @@ System.debug('Replace my first name with Billy: '+myFirstName.replace('william',
 ```
 
 This was the code's output:
+
 <img src="String Class Methods.PNG" />
