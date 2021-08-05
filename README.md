@@ -5,7 +5,7 @@ This is my first github creation, this will be used to showcase some of the prog
 The first thing I've learned was about Primative Data Types and how to create comments.
 
 Below is the code that I created.
-```
+```apex
 //A any set of characters surrounded by single quotes
 String myName = ('William Tea');
 System.debug(myName);
