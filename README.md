@@ -14,27 +14,35 @@ Below is the code that I created.
 //A any set of characters surrounded by single quotes
 String myName = ('William Tea');
 System.debug(myName);
+
 //Returns true or false or null
 boolean doYouEnjoyCoding = true;
 System.debug(doYouEnjoyCoding);
+
 //Returns up to 32bit number (2,147,483,647)
 Integer myAge = 26;
 System.debug(myAge);
+
 //Returns up to 64 bit number (2,147,483,648) followed by an L
 Long myCellPhone = 8324756959L;
 System.debug(myCellPhone);
+
 //A number that includes a decimal point
 Decimal myWeight = 179.4;
 System.debug(myWeight);
+
 //Returns up to 64 bit number that includes a decimal point
 Double pi = 3.14159;
 System.debug(pi);
+
 //Returns a particular day
 Date todayDate = Date.newInstance(2021, 08, 04);
 System.debug(todayDate);
+
 //A value that indicates a particular time
 Time currentTime = Time.newInstance(21, 43, 0, 0);
 System.debug(currentTime);
+
 //A value that indicates particular day and time, such as a time stamp
 Datetime currentDateTime = DateTime.newInstance(2021, 08, 04, 21, 43, 0);
 System.debug(currentDateTime);
@@ -52,20 +60,26 @@ String myFirstName= 'william';
 System.debug('Actual first name:' + myFirstName);
 String myLastName= 'Tea';
 System.debug('Actual last name:' + myLastName);
+
 // capitalize
 System.debug('Capitalize myFirstName: '+ myFirstName.capitalize());
+
 // convert to upper case
 System.debug('Changing first name to upper case: '+ myFirstName.toUpperCase());
+
 // convert to lower case
 System.debug('Changing last name to lower case: '+ myLastName.toLowerCase());
+
 // equals
 System.debug('Is my first name equal to Tea?: '+ myFirstName.equals('Tea'));
 String myFirstName1 = 'William';
 String myFirstName2 = 'william';
 System.debug('myFirstName1 equals myFirstName2: '+ myFirstName1.equals(myFirstName2));
 System.debug('myFirstName1 equals myFirstName2 ignore case: ' + myFirstName1.toLowerCase().equals(myFirstName2.toLowerCase()));
+
 // remove
 System.debug('Remove last 3 characters of my first name: '+ myFirstName.remove('iam'));
+
 // replace
 System.debug('Replace my first name with Billy: '+ myFirstName.replace('william', 'Billy'));
 ```
@@ -94,21 +108,27 @@ Below is the code I created.
 //Create a list
 List<Integer> areaCode= new List<Integer>{713, 832};
 System.debug('These are Houston\'s area codes' + areaCode);
+
 //Add to the list
 areaCode.add(346);
 System.debug('These are the additional area codes' + areaCode);
+
 //get item on index 1
 Integer areaCodeNum = areaCode.get(1);
 System.debug('My cellphone number starts with ' + areaCode.get(1));
+
 //add item on index 2
 areaCode.add(2, 281);
 System.debug('These are even more area codes' + areaCode);
+
 //get the list size
 System.debug('There are a total of ' + areaCode.size() + ' area codes in Houston.');
+
 //remove the item on index 3
 areaCode.remove(3);
 System.debug('These are the remaining area codes in Houston ' +areaCode);
 System.debug('There is now total of ' + areaCode.size() + ' area codes left in Houston.');
+
 //clear the list
 areaCode.clear();
 System.debug('There are ' + areaCode + ' area codes stored.');
@@ -126,19 +146,25 @@ Below is the code I created.
 //Create a set
 Set<Integer> areaCode = new Set<Integer>{713, 832, 346};
 System.debug('These are Houston\'s area codes' + areaCode);
+
 //Add to the list
 areaCode.add(281);
 System.debug('These are the additional area codes' + areaCode);
+
 //check if set has an item
 System.debug(areaCode.contains(713));
 System.debug(areaCode.contains(911));
+
 //delete an item
 areaCode.remove(832);
 System.debug(areaCode);
+
 // get set size
 System.debug(areaCode.size());
+
 // check if set is empty
 System.debug(areaCode.isEmpty());
+
 // remove all items
 areaCode.clear();
 System.debug(areaCode.isEmpty());
@@ -152,25 +178,43 @@ The next exercise I've learned was about  [Map Datatypes](https://developer.sale
 
 Below is the code I created.
 ```apex
-//Create a set
-Set<Integer> areaCode = new Set<Integer>{713, 832, 346};
-System.debug('These are Houston\'s area codes' + areaCode);
-//Add to the list
-areaCode.add(281);
-System.debug('These are the additional area codes' + areaCode);
-//check if set has an item
-System.debug(areaCode.contains(713));
-System.debug(areaCode.contains(911));
-//delete an item
-areaCode.remove(832);
-System.debug(areaCode);
-// get set size
-System.debug(areaCode.size());
-// check if set is empty
-System.debug(areaCode.isEmpty());
-// remove all items
-areaCode.clear();
-System.debug(areaCode.isEmpty());
+Map<Integer, String> class2021 = new Map<Integer, String>();
+
+// add a new student/item
+class2021.put(100001, 'William');
+System.debug(class2021);
+
+class2021.put(100002, 'Elaine');
+class2021.put(100003, 'Tommy');
+class2021.put(100004, 'Leo');
+class2021.put(100005, 'Connie');
+System.debug(class2021);
+
+class2021.put(100005, 'Sarah');
+System.debug(class2021);
+
+//update/override value
+class2021.put(100005, 'Julie');
+System.debug(class2021);
+
+// get a value
+System.debug(class2021.get(100002));
+
+// remove an item from map
+class2021.remove(100005);
+System.debug(class2021);
+
+// get all the keys
+Set<Integer> idNumber = class2021.keySet();
+System.debug(idNumber);
+
+// get all the values
+List<String> students = class2021.values();
+System.debug(students);
+
+// check if map has the key
+System.debug(class2021.containsKey(100001));
+System.debug(class2021.containsKey(100005));
 ```
 
 This was the code's output:
