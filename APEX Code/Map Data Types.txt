@@ -1,0 +1,37 @@
+Map<Integer, String> class2021 = new Map<Integer, String>();
+
+// add a new student/item
+class2021.put(100001, 'William');
+System.debug(class2021);
+
+class2021.put(100002, 'Elaine');
+class2021.put(100003, 'Tommy');
+class2021.put(100004, 'Leo');
+class2021.put(100005, 'Connie');
+System.debug(class2021);
+
+class2021.put(100005, 'Sarah');
+System.debug(class2021);
+
+//update/override value
+class2021.put(100005, 'Julie');
+System.debug(class2021);
+
+// get a value
+System.debug(class2021.get(100002));
+
+// remove an item from map
+class2021.remove(100005);
+System.debug(class2021);
+
+// get all the keys
+Set<Integer> rollNumber = class2021.keySet();
+System.debug(rollNumber);
+
+// get all the values
+List<String> students = class2021.values();
+System.debug(students);
+
+// check if map has the key
+System.debug(class2021.containsKey(100001));
+System.debug(class2021.containsKey(100005));
