@@ -55,26 +55,26 @@ String myLastName= 'Tea';
 System.debug('Actual last name:' + myLastName);
 
 // capitalize
-System.debug('Capitalize myFirstName: '+myFirstName.capitalize());
+System.debug('Capitalize myFirstName: '+ myFirstName.capitalize());
 
 // convert to upper case
-System.debug('Changing first name to upper case: '+myFirstName.toUpperCase());
+System.debug('Changing first name to upper case: '+ myFirstName.toUpperCase());
 
 // convert to lower case
-System.debug('Changing last name to lower case: '+myLastName.toLowerCase());
+System.debug('Changing last name to lower case: '+ myLastName.toLowerCase());
 
 // equals
-System.debug('Is my first name equal to Tea?: '+myFirstName.equals('Tea'));
+System.debug('Is my first name equal to Tea?: '+ myFirstName.equals('Tea'));
 String myFirstName1 = 'William';
 String myFirstName2 = 'william';
 System.debug('myFirstName1 equals myFirstName2: '+ myFirstName1.equals(myFirstName2));
 System.debug('myFirstName1 equals myFirstName2 ignore case: ' + myFirstName1.toLowerCase().equals(myFirstName2.toLowerCase()));
 
 // remove
-System.debug('Remove last 3 characters of my first name: '+myFirstName.remove('iam'));
+System.debug('Remove last 3 characters of my first name: '+ myFirstName.remove('iam'));
 
 // replace
-System.debug('Replace my first name with Billy: '+myFirstName.replace('william', 'Billy'));
+System.debug('Replace my first name with Billy: '+ myFirstName.replace('william', 'Billy'));
 ```
 
 This was the code's output:
