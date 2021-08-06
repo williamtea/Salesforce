@@ -93,3 +93,36 @@ System.debug(str);
 This was the code's output:
 
 <img src="/images/Escape Sequence.PNG" />
+
+The next exercise I've learned was about the different [List Datatypes](https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/langCon_apex_collections_lists.htm).
+
+Below is the code I created.
+```apex
+//Create a list
+List<Integer> areaCode= new List<Integer>{713, 832};
+System.debug('These are Houston\'s area codes' + areaCode);
+//Add to the list
+areaCode.add(346);
+System.debug('These are the addtional area codes' + areaCode);
+// get item on index 1
+Integer areaCodeNum = areaCode.get(1);
+System.debug('My cellphone number starts with ' + areaCode.get(1));
+// add item on index 2
+areaCode.add(2, 281);
+System.debug('These are even more area codes' + areaCode);
+// get the list size
+System.debug('There are a total of ' + areaCode.size() + ' area codes in Houston.');
+// remove the item on index 3
+areaCode.remove(3);
+System.debug('These are the remaining area codes in Houston ' +areaCode);
+System.debug('There is now total of ' + areaCode.size() + ' area codes left in Houston.');
+// clear the list
+areaCode.clear();
+System.debug('There are ' + areaCode + ' area codes stored.');
+System.debug('There is a total of ' + areaCode.size() + ' area codes stored');
+```
+
+This was the code's output:
+
+<img src="/images/List Datatypes.PNG" />
+
