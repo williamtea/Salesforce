@@ -147,3 +147,33 @@ System.debug(areaCode.isEmpty());
 This was the code's output:
 
 <img src="/images/Set Data Types.PNG" />
+
+The next exercise I've learned was about  [Map Datatypes](https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/langCon_apex_collections_maps.htm).
+
+Below is the code I created.
+```apex
+//Create a set
+Set<Integer> areaCode = new Set<Integer>{713, 832, 346};
+System.debug('These are Houston\'s area codes' + areaCode);
+//Add to the list
+areaCode.add(281);
+System.debug('These are the additional area codes' + areaCode);
+//check if set has an item
+System.debug(areaCode.contains(713));
+System.debug(areaCode.contains(911));
+//delete an item
+areaCode.remove(832);
+System.debug(areaCode);
+// get set size
+System.debug(areaCode.size());
+// check if set is empty
+System.debug(areaCode.isEmpty());
+// remove all items
+areaCode.clear();
+System.debug(areaCode.isEmpty());
+```
+
+This was the code's output:
+
+<img src="/images/Map Data Types.PNG" />
+
