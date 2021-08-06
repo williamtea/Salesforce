@@ -103,7 +103,7 @@ List<Integer> areaCode= new List<Integer>{713, 832};
 System.debug('These are Houston\'s area codes' + areaCode);
 //Add to the list
 areaCode.add(346);
-System.debug('These are the addtional area codes' + areaCode);
+System.debug('These are the additional area codes' + areaCode);
 //get item on index 1
 Integer areaCodeNum = areaCode.get(1);
 System.debug('My cellphone number starts with ' + areaCode.get(1));
