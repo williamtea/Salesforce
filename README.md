@@ -124,5 +124,5 @@ System.debug('There is a total of ' + areaCode.size() + ' area codes stored');
 
 This was the code's output:
 
-<img src="/images/List Datatypes.PNG" />
+<img src="/images/List Data Types.PNG" />
 
