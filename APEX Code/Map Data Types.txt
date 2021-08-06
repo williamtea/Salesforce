@@ -25,8 +25,8 @@ class2021.remove(100005);
 System.debug(class2021);
 
 // get all the keys
-Set<Integer> rollNumber = class2021.keySet();
-System.debug(rollNumber);
+Set<Integer> idNumber = class2021.keySet();
+System.debug(idNumber);
 
 // get all the values
 List<String> students = class2021.values();
