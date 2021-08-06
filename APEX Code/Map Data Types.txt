@@ -1,6 +1,6 @@
 Map<Integer, String> class2021 = new Map<Integer, String>();
 
-// add a new student/item
+//Add a new student/item
 class2021.put(100001, 'William');
 System.debug(class2021);
 
@@ -13,25 +13,25 @@ System.debug(class2021);
 class2021.put(100005, 'Sarah');
 System.debug(class2021);
 
-//update/override value
+//Update/override value
 class2021.put(100005, 'Julie');
 System.debug(class2021);
 
-// get a value
+//Get a value
 System.debug(class2021.get(100002));
 
-// remove an item from map
+//Remove an item from map
 class2021.remove(100005);
 System.debug(class2021);
 
-// get all the keys
+//Get all the keys
 Set<Integer> idNumber = class2021.keySet();
 System.debug(idNumber);
 
-// get all the values
+//Get all the values
 List<String> students = class2021.values();
 System.debug(students);
 
-// check if map has the key
+//Check if map has the key
 System.debug(class2021.containsKey(100001));
 System.debug(class2021.containsKey(100005));
