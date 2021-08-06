@@ -61,23 +61,23 @@ System.debug('Actual first name:' + myFirstName);
 String myLastName= 'Tea';
 System.debug('Actual last name:' + myLastName);
 
-// capitalize
+//Capitalize
 System.debug('Capitalize myFirstName: '+ myFirstName.capitalize());
 
-// convert to upper case
+//Convert to upper case
 System.debug('Changing first name to upper case: '+ myFirstName.toUpperCase());
 
-// convert to lower case
+//Convert to lower case
 System.debug('Changing last name to lower case: '+ myLastName.toLowerCase());
 
-// equals
+//Equals
 System.debug('Is my first name equal to Tea?: '+ myFirstName.equals('Tea'));
 String myFirstName1 = 'William';
 String myFirstName2 = 'william';
 System.debug('myFirstName1 equals myFirstName2: '+ myFirstName1.equals(myFirstName2));
 System.debug('myFirstName1 equals myFirstName2 ignore case: ' + myFirstName1.toLowerCase().equals(myFirstName2.toLowerCase()));
 
-// remove
+//Remove
 System.debug('Remove last 3 characters of my first name: '+ myFirstName.remove('iam'));
 
 // replace
@@ -113,23 +113,23 @@ System.debug('These are Houston\'s area codes' + areaCode);
 areaCode.add(346);
 System.debug('These are the additional area codes' + areaCode);
 
-//get item on index 1
+//Get item on index 1
 Integer areaCodeNum = areaCode.get(1);
 System.debug('My cellphone number starts with ' + areaCode.get(1));
 
-//add item on index 2
+//Add item on index 2
 areaCode.add(2, 281);
 System.debug('These are even more area codes' + areaCode);
 
-//get the list size
+//Get the list size
 System.debug('There are a total of ' + areaCode.size() + ' area codes in Houston.');
 
-//remove the item on index 3
+//Remove the item on index 3
 areaCode.remove(3);
 System.debug('These are the remaining area codes in Houston ' +areaCode);
 System.debug('There is now total of ' + areaCode.size() + ' area codes left in Houston.');
 
-//clear the list
+//Clear the list
 areaCode.clear();
 System.debug('There are ' + areaCode + ' area codes stored.');
 System.debug('There is a total of ' + areaCode.size() + ' area codes stored');
@@ -151,21 +151,21 @@ System.debug('These are Houston\'s area codes' + areaCode);
 areaCode.add(281);
 System.debug('These are the additional area codes' + areaCode);
 
-//check if set has an item
+//Check if set has an item
 System.debug(areaCode.contains(713));
 System.debug(areaCode.contains(911));
 
-//delete an item
+//Delete an item
 areaCode.remove(832);
 System.debug(areaCode);
 
-// get set size
+//Get set size
 System.debug(areaCode.size());
 
-// check if set is empty
+//Check if set is empty
 System.debug(areaCode.isEmpty());
 
-// remove all items
+//Remove all items
 areaCode.clear();
 System.debug(areaCode.isEmpty());
 ```
@@ -180,7 +180,7 @@ Below is the code I created.
 ```apex
 Map<Integer, String> class2021 = new Map<Integer, String>();
 
-// add a new student/item
+//Add a new student/item
 class2021.put(100001, 'William');
 System.debug(class2021);
 
@@ -193,26 +193,26 @@ System.debug(class2021);
 class2021.put(100005, 'Sarah');
 System.debug(class2021);
 
-//update/override value
+//Update/override value
 class2021.put(100005, 'Julie');
 System.debug(class2021);
 
-// get a value
+//Get a value
 System.debug(class2021.get(100002));
 
-// remove an item from map
+//Remove an item from map
 class2021.remove(100005);
 System.debug(class2021);
 
-// get all the keys
+//Get all the keys
 Set<Integer> idNumber = class2021.keySet();
 System.debug(idNumber);
 
-// get all the values
+//Get all the values
 List<String> students = class2021.values();
 System.debug(students);
 
-// check if map has the key
+//Check if map has the key
 System.debug(class2021.containsKey(100001));
 System.debug(class2021.containsKey(100005));
 ```
