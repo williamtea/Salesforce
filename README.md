@@ -80,7 +80,7 @@ System.debug('myFirstName1 equals myFirstName2 ignore case: ' + myFirstName1.toL
 //Remove
 System.debug('Remove last 3 characters of my first name: '+ myFirstName.remove('iam'));
 
-// replace
+//Replace
 System.debug('Replace my first name with Billy: '+ myFirstName.replace('william', 'Billy'));
 ```
 
