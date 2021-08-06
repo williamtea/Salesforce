@@ -221,3 +221,33 @@ This was the code's output:
 
 <img src="/images/Map Data Types.PNG" />
 
+The next exercise was the first challenge in the course, I needed to apply my knowledge with List, Set, and Map data types.
+
+Below is the code I created.
+```apex
+//Post for candy
+List<String> maxx = new list<String>{'Sour Strips','Ever Forward'};
+
+//Post for owner
+List<String> christian = new list<String>{'Alphalete','Alphaland'};
+
+//Setting promo codes
+Set<String> promoCodes = new Set<String>{'10OFF','20OFF'};
+System.debug('These are the promoCodes' + promoCodes);
+
+//Map to store the categories and post lists
+Map<String, List<String>> productOwner = new Map<String, List<String>>();
+
+//Insert Maxx's full name followed by list
+productOwner.put('Maxx Chewning', maxx);
+
+//Insert Christian's full name followed by list
+productOwner.put('Christian Guzman', christian);
+
+//Printing all
+System.debug(productOwner);	
+```
+
+This was the code's output:
+
+<img src="/images/Challenge 1 - Variables and Datatype.PNG" />
